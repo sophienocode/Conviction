@@ -1,9 +1,10 @@
-import React from 'react'
+
+import Post from './components/Post'
 
 export default function App() {
   return (
-    <div>
-      <h1> welcome to react</h1>
-    </div>
+    <>
+    <Post />
+    </>
   )
 }
